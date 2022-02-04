@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.designpattern.facade.ShopKeeperTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-04T18:31:57" hostname="DESKTOP-H3C67DB" time="0.003">
+  <properties/>
+  <testcase name="nokiaSale()" classname="com.soj.designpattern.facade.ShopKeeperTest" time="0.001"/>
+  <testcase name="oppoSale()" classname="com.soj.designpattern.facade.ShopKeeperTest" time="0.001"/>
+  <testcase name="iphoneSale()" classname="com.soj.designpattern.facade.ShopKeeperTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

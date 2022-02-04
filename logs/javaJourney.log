@@ -1,27 +1,27 @@
- INFO [main] 2022-02-04T17:23:26,758  (line ) 1.Iphone
- INFO [main] 2022-02-04T17:23:26,759  (line ) 2.Nokia
- INFO [main] 2022-02-04T17:23:26,759  (line ) 3.Oppo
- INFO [main] 2022-02-04T17:23:26,759  (line ) 4.Exit
- INFO [main] 2022-02-04T17:23:26,759  (line ) enter a choice
-DEBUG [main] 2022-02-04T17:23:33,358  (line ) The model no of Ipnhone is IPhone 7
-DEBUG [main] 2022-02-04T17:23:33,358  (line ) The price of the Iphone is Rs65000.0
- INFO [main] 2022-02-04T17:23:33,358  (line ) 1.Iphone
- INFO [main] 2022-02-04T17:23:33,358  (line ) 2.Nokia
- INFO [main] 2022-02-04T17:23:33,358  (line ) 3.Oppo
- INFO [main] 2022-02-04T17:23:33,358  (line ) 4.Exit
- INFO [main] 2022-02-04T17:23:33,358  (line ) enter a choice
-DEBUG [main] 2022-02-04T17:23:46,448  (line ) The model no of Nokia is X100
-DEBUG [main] 2022-02-04T17:23:46,448  (line ) The price of the Nokia is Rs45000.0
- INFO [main] 2022-02-04T17:23:46,448  (line ) 1.Iphone
- INFO [main] 2022-02-04T17:23:46,448  (line ) 2.Nokia
- INFO [main] 2022-02-04T17:23:46,448  (line ) 3.Oppo
- INFO [main] 2022-02-04T17:23:46,448  (line ) 4.Exit
- INFO [main] 2022-02-04T17:23:46,448  (line ) enter a choice
-DEBUG [main] 2022-02-04T17:23:50,475  (line ) The model no of Oppo is Reno6Lite
-DEBUG [main] 2022-02-04T17:23:50,475  (line ) The price of the oppo is Rs69999.0
- INFO [main] 2022-02-04T17:23:50,475  (line ) 1.Iphone
- INFO [main] 2022-02-04T17:23:50,475  (line ) 2.Nokia
- INFO [main] 2022-02-04T17:23:50,475  (line ) 3.Oppo
- INFO [main] 2022-02-04T17:23:50,476  (line ) 4.Exit
- INFO [main] 2022-02-04T17:23:50,476  (line ) enter a choice
-DEBUG [main] 2022-02-04T17:23:58,543  (line ) Nothing is purchased
+ INFO [main] 2022-02-04T18:08:10,314  (line ) 1.Iphone
+ INFO [main] 2022-02-04T18:08:10,315  (line ) 2.Nokia
+ INFO [main] 2022-02-04T18:08:10,315  (line ) 3.Oppo
+ INFO [main] 2022-02-04T18:08:10,315  (line ) 4.Exit
+ INFO [main] 2022-02-04T18:08:10,315  (line ) enter a choice
+DEBUG [main] 2022-02-04T18:08:15,872  (line ) The model no of Ipnhone is IPhone 7
+DEBUG [main] 2022-02-04T18:08:15,873  (line ) The price of the Iphone is Rs65000.0
+ INFO [main] 2022-02-04T18:08:15,873  (line ) 1.Iphone
+ INFO [main] 2022-02-04T18:08:15,873  (line ) 2.Nokia
+ INFO [main] 2022-02-04T18:08:15,873  (line ) 3.Oppo
+ INFO [main] 2022-02-04T18:08:15,873  (line ) 4.Exit
+ INFO [main] 2022-02-04T18:08:15,873  (line ) enter a choice
+DEBUG [main] 2022-02-04T18:08:17,889  (line ) The model no of Nokia is X100
+DEBUG [main] 2022-02-04T18:08:17,889  (line ) The price of the Nokia is Rs45000.0
+ INFO [main] 2022-02-04T18:08:17,889  (line ) 1.Iphone
+ INFO [main] 2022-02-04T18:08:17,889  (line ) 2.Nokia
+ INFO [main] 2022-02-04T18:08:17,889  (line ) 3.Oppo
+ INFO [main] 2022-02-04T18:08:17,890  (line ) 4.Exit
+ INFO [main] 2022-02-04T18:08:17,890  (line ) enter a choice
+DEBUG [main] 2022-02-04T18:08:18,892  (line ) The model no of Oppo is Reno6Lite
+DEBUG [main] 2022-02-04T18:08:18,892  (line ) The price of the oppo is Rs69999.0
+ INFO [main] 2022-02-04T18:08:18,892  (line ) 1.Iphone
+ INFO [main] 2022-02-04T18:08:18,892  (line ) 2.Nokia
+ INFO [main] 2022-02-04T18:08:18,892  (line ) 3.Oppo
+ INFO [main] 2022-02-04T18:08:18,892  (line ) 4.Exit
+ INFO [main] 2022-02-04T18:08:18,892  (line ) enter a choice
+DEBUG [main] 2022-02-04T18:08:21,914  (line ) Nothing is purchased

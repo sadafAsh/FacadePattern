@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.designpattern.facade.ShopKeeperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-04T21:09:35" hostname="DESKTOP-H3C67DB" time="0.599">
+  <properties/>
+  <testcase name="TestForModelNoAtIphoneSale()" classname="com.soj.designpattern.facade.ShopKeeperTest" time="0.599"/>
+  <system-out><![CDATA[DEBUG [Test worker] 2022-02-04T21:09:36,371  (line ) The model no of Ipnhone is IPhone 7
+DEBUG [Test worker] 2022-02-04T21:09:36,373  (line ) The price of the Iphone is Rs65000.0
+DEBUG [Test worker] 2022-02-04T21:09:36,373  (line ) The model no of Ipnhone is IPhone 7
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

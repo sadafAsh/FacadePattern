@@ -1,27 +1,3 @@
- INFO [main] 2022-02-04T18:08:10,314  (line ) 1.Iphone
- INFO [main] 2022-02-04T18:08:10,315  (line ) 2.Nokia
- INFO [main] 2022-02-04T18:08:10,315  (line ) 3.Oppo
- INFO [main] 2022-02-04T18:08:10,315  (line ) 4.Exit
- INFO [main] 2022-02-04T18:08:10,315  (line ) enter a choice
-DEBUG [main] 2022-02-04T18:08:15,872  (line ) The model no of Ipnhone is IPhone 7
-DEBUG [main] 2022-02-04T18:08:15,873  (line ) The price of the Iphone is Rs65000.0
- INFO [main] 2022-02-04T18:08:15,873  (line ) 1.Iphone
- INFO [main] 2022-02-04T18:08:15,873  (line ) 2.Nokia
- INFO [main] 2022-02-04T18:08:15,873  (line ) 3.Oppo
- INFO [main] 2022-02-04T18:08:15,873  (line ) 4.Exit
- INFO [main] 2022-02-04T18:08:15,873  (line ) enter a choice
-DEBUG [main] 2022-02-04T18:08:17,889  (line ) The model no of Nokia is X100
-DEBUG [main] 2022-02-04T18:08:17,889  (line ) The price of the Nokia is Rs45000.0
- INFO [main] 2022-02-04T18:08:17,889  (line ) 1.Iphone
- INFO [main] 2022-02-04T18:08:17,889  (line ) 2.Nokia
- INFO [main] 2022-02-04T18:08:17,889  (line ) 3.Oppo
- INFO [main] 2022-02-04T18:08:17,890  (line ) 4.Exit
- INFO [main] 2022-02-04T18:08:17,890  (line ) enter a choice
-DEBUG [main] 2022-02-04T18:08:18,892  (line ) The model no of Oppo is Reno6Lite
-DEBUG [main] 2022-02-04T18:08:18,892  (line ) The price of the oppo is Rs69999.0
- INFO [main] 2022-02-04T18:08:18,892  (line ) 1.Iphone
- INFO [main] 2022-02-04T18:08:18,892  (line ) 2.Nokia
- INFO [main] 2022-02-04T18:08:18,892  (line ) 3.Oppo
- INFO [main] 2022-02-04T18:08:18,892  (line ) 4.Exit
- INFO [main] 2022-02-04T18:08:18,892  (line ) enter a choice
-DEBUG [main] 2022-02-04T18:08:21,914  (line ) Nothing is purchased
+DEBUG [main] 2022-02-06T10:18:01,287  (line ) Cube of 3 is 27
+DEBUG [main] 2022-02-06T10:18:01,289  (line ) cube of 3 times 2 is 54
+DEBUG [main] 2022-02-06T10:18:01,289  (line ) Multiply two objects is 1458 

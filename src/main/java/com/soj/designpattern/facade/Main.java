@@ -1,40 +1,25 @@
 package com.soj.designpattern.facade;
 
+import com.soj.designpattern.facade.impl.FacadeImpl;
+import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.Scanner;
 
 public class Main {
     static final Logger logger = LogManager.getLogger(Main.class.getName());
 
     public static void main(String[] args) {
 
-        int ch;
-        do {
-            logger.info("1.Iphone");
-            logger.info("2.Nokia");
-            logger.info("3.Oppo");
-            logger.info("4.Exit");
-            logger.info("enter a choice");
-            Scanner scanner = new Scanner(System.in);
-            ch = scanner.nextInt();
-            ShopKeeper shopKeeper = new ShopKeeper();
-            switch (ch) {
-                case 1:
-                    shopKeeper.iphoneSale();
-                    break;
-                case 2:
-                    shopKeeper.nokiaSale();
-                    break;
-                case 3:
-                    shopKeeper.oppoSale();
-                    break;
-                default:
-                    logger.debug("Nothing is purchased");
-                    break;
-            }
-        } while (ch != 4);
+        Facade facadeImpl = new FacadeImpl();
 
+        int x = 3;
+        int result1 = facadeImpl.cubeX(x);
+        int result2 = facadeImpl.cubeXTimesTwo(x);
+        int result3 = facadeImpl.operateTwoObjects(x);
+
+
+        logger.log(Level.DEBUG, "Cube of {} is {}", x, result1);
+        logger.log(Level.DEBUG, "cube of {} times 2 is {}", x, result2);
+        logger.log(Level.DEBUG, "Multiply two objects is {} ", result3);
     }
 }

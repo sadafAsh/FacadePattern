@@ -1,41 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">FacadePattern</a> &gt; <a href="index.source.html" class="el_package">com.soj.designpattern.facade</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package com.soj.designpattern.facade;
 
+import com.soj.designpattern.facade.impl.FacadeImpl;
+import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-import java.util.Scanner;
 
 <span class="nc" id="L8">public class Main {</span>
 <span class="nc" id="L9">    static final Logger logger = LogManager.getLogger(Main.class.getName());</span>
 
     public static void main(String[] args) {
 
-        int ch;
-        do {
-<span class="nc" id="L15">            logger.info(&quot;1.Iphone&quot;);</span>
-<span class="nc" id="L16">            logger.info(&quot;2.Nokia&quot;);</span>
-<span class="nc" id="L17">            logger.info(&quot;3.Oppo&quot;);</span>
-<span class="nc" id="L18">            logger.info(&quot;4.Exit&quot;);</span>
-<span class="nc" id="L19">            logger.info(&quot;enter a choice&quot;);</span>
-<span class="nc" id="L20">            Scanner scanner = new Scanner(System.in);</span>
-<span class="nc" id="L21">            ch = scanner.nextInt();</span>
-<span class="nc" id="L22">            ShopKeeper shopKeeper = new ShopKeeper();</span>
-<span class="nc bnc" id="L23" title="All 4 branches missed.">            switch (ch) {</span>
-                case 1:
-<span class="nc" id="L25">                    shopKeeper.iphoneSale();</span>
-<span class="nc" id="L26">                    break;</span>
-                case 2:
-<span class="nc" id="L28">                    shopKeeper.nokiaSale();</span>
-<span class="nc" id="L29">                    break;</span>
-                case 3:
-<span class="nc" id="L31">                    shopKeeper.oppoSale();</span>
-<span class="nc" id="L32">                    break;</span>
-                default:
-<span class="nc" id="L34">                    logger.debug(&quot;Nothing is purchased&quot;);</span>
-                    break;
-            }
-<span class="nc bnc" id="L37" title="All 2 branches missed.">        } while (ch != 4);</span>
+<span class="nc" id="L13">        Facade facadeImpl = new FacadeImpl();</span>
 
-<span class="nc" id="L39">    }</span>
+<span class="nc" id="L15">        int x = 3;</span>
+<span class="nc" id="L16">        int result1 = facadeImpl.cubeX(x);</span>
+<span class="nc" id="L17">        int result2 = facadeImpl.cubeXTimesTwo(x);</span>
+<span class="nc" id="L18">        int result3 = facadeImpl.operateTwoObjects(x);</span>
+
+
+<span class="nc" id="L21">        logger.log(Level.DEBUG, &quot;Cube of {} is {}&quot;, x, result1);</span>
+<span class="nc" id="L22">        logger.log(Level.DEBUG, &quot;cube of {} times 2 is {}&quot;, x, result2);</span>
+<span class="nc" id="L23">        logger.log(Level.DEBUG, &quot;Multiply two objects is {} &quot;, result3);</span>
+<span class="nc" id="L24">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

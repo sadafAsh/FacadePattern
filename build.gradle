@@ -2,6 +2,8 @@ plugins {
     id 'java'
     id 'io.spring.dependency-management' version '1.0.1.RELEASE'
     id 'jacoco'
+    id "org.sonarqube" version "3.3"
+
 }
 
 group 'org.soj.designpattern.facade'
@@ -12,15 +14,40 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
 }
+sonarqube {
+    properties {
+        property "sonar.exclusions", "**/*Main.java"
+    }
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
+test.finalizedBy jacocoTestReport
 test {
     finalizedBy jacocoTestReport // report is always generated after tests run
 }
+
+
 jacocoTestReport {
     dependsOn test // tests are required to run before generating the report
+
+    afterEvaluate {
+        classDirectories.setFrom(files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: [
+                    "**/*Main*",
+            ])
+        }))
+    }
 }
 
 test {
     useJUnitPlatform()
+}
+tasks.named('sonarqube').configure {
+    dependsOn test
 }
 
 dependencies {

@@ -17,6 +17,10 @@ repositories {
 sonarqube {
     properties {
         property "sonar.exclusions", "**/*Main.java"
+
+        property 'sonar.host.url', 'http://localhost:9000'
+        property 'sonar.login','1fad14f4c0252d3e3dad5f7e1bbe8c732be53e98'
+        property 'sonar.projectKey','Facade'
     }
 }
 
